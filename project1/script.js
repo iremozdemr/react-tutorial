@@ -6,6 +6,12 @@
 //jsx = javascript xml
 //html benzeri yapıların javascript içine yazılmasını sağlar
 
+//react projesi oluşturma:
+//npm create vite@latest
+//cd projectname
+//npm install
+//npm run dev
+
 //declarative:
 //react
 //imperative:
