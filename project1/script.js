@@ -1,6 +1,13 @@
+//react:
+//library
+//framework değil
+
+//jsx:
+//jsx = javascript xml
+//html benzeri yapıların javascript içine yazılmasını sağlar
+
 //declarative:
 //react
-
 //imperative:
 //vanilla javascript
 

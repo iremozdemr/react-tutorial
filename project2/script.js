@@ -1,7 +1,3 @@
-//jsx:
-//jsx = javascript xml
-//html benzeri yapıların javascript içine yazılmasını sağlar
-
 const navbar = (
 <nav>
     <h1>brand name</h1>
