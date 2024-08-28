@@ -2,11 +2,15 @@ import PropTypes from "prop-types"
 
 function UserGreeting(props){
 
+    const welcomeMessage = <h2 className="welcome-message">{props.userName} welcome</h2>
+
+    const loginMessage = <h2 className="login-message">{props.userName} please log in to continue</h2>
+
     if(props.isLoggedIn){
-        return <h2 className="welcome-message">{props.userName} welcome</h2>
+        return welcomeMessage
     }
     else{
-        return <h2 className="login-message">{props.userName} please log in to continue</h2>
+        return loginMessage
     }
 
     //return(props.isLoggedIn ? <h2>welcome</h2> : <h2>please log in to continue</h2>);
