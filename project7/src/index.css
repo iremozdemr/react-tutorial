@@ -1,0 +1,14 @@
+.welcome-message, .login-message{
+    border: 1px solid gray;
+    padding: 10px;
+    font-size: 25px;
+    width: 50%;
+}
+
+.welcome-message{
+    background-color: greenyellow;
+}
+
+.login-message{
+    background-color: red;
+}
